@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image} from 'react-bootstrap';
-import pointer from './Images/pointer.png';
+// import pointer from './Images/pointer.png';
 // import pp from './Images/fff.png';
 // import pp from './Images/fff.png';
 // import aboutLgran from './Images/aboutLgran.png';

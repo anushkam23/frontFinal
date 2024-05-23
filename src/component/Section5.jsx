@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 import axios from "axios";
-import pointer from "./Images/pointer.png";
+// import pointer from "./Images/pointer.png";
 import { toast } from "react-toastify";
 
 export default function Section5() {

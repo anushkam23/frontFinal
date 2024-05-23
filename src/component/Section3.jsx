@@ -1,8 +1,8 @@
 import React from 'react';
 import {Image,Row,Col,Container} from 'react-bootstrap';
-import whitePointer from './Images/whitePointer.png';
-import thirdCatImage from './Images/thirdCaT.png';
-import foodBgImage from './Images/foodbg.png';
+// import whitePointer from './Images/whitePointer.png';
+// import thirdCatImage from './Images/thirdCaT.png';
+// import foodBgImage from './Images/foodbg.png';
 
 export default function Section3() {
   return (

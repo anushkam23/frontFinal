@@ -897,7 +897,7 @@ nav ul li a img {
 }
 
 .secondCat{
-  background-image: url("./component/Images/secondCat.png");
+  /* background-image: url("./component/Images/secondCat.png"); */
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -1234,7 +1234,7 @@ nav ul li a img {
 }
 
 .secondCat{
-  background-image: url("./component/Images/secondCat.png");
+  /* background-image: url("./component/Images/secondCat.png"); */
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -1268,9 +1268,9 @@ nav ul li a img {
   font-size: 25px;
 }
 
-.secondCat img{
+/* .secondCat img{
   height: 10px;
-}
+} */
 #base{
   font-size: 15px;
   display: inline;
