@@ -32,7 +32,7 @@ const CreateBlog = () => {
       formDataToSend.append("coverImage", formData.coverImage);
       formDataToSend.append("date", formData.date);
 
-      const response = await axios.post("http://localhost:5000/api/blog/create", formDataToSend, {
+      const response = await axios.post("https://backfinal-1-llx1.onrender.com/api/blog/create", formDataToSend, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "multipart/form-data",

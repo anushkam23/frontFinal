@@ -19,7 +19,7 @@ export default function Section5() {
 
     try {
       // Send the form data to the server using Axios
-      const response = await axios.post("http://localhost:5000/api/booking/create", {
+      const response = await axios.post("https://backfinal-1-llx1.onrender.com/api/booking/create", {
         fullName: formData.fullName,
         email: formData.email,
         phone: formData.phone,

@@ -26,7 +26,7 @@ const EditBlog = () => {
   useEffect(() => {
     const fetchBlogDetails = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/blog/single-blog/${id}`, {
+        const response = await axios.get(`https://backfinal-1-llx1.onrender.com/api/blog/single-blog/${id}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -56,7 +56,7 @@ const EditBlog = () => {
       formDataToSend.append("coverImage", formData.coverImage);
       formDataToSend.append("date", formData.date);
 
-      const response = await axios.put(`http://localhost:5000/api/blog/edit/${id}`, formDataToSend, {
+      const response = await axios.put(`https://backfinal-1-llx1.onrender.com/api/blog/edit/${id}`, formDataToSend, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "multipart/form-data",

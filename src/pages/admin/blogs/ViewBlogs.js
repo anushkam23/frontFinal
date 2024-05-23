@@ -9,7 +9,7 @@ const ViewBlogs = () => {
 
   const fetchBlogs = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/blog/all-blogs");
+      const response = await axios.get("https://backfinal-1-llx1.onrender.com/api/blog/all-blogs");
       setBlogs(response.data.blogs);
     } catch (error) {
       console.error("Error fetching blogs", error);
@@ -26,7 +26,7 @@ const ViewBlogs = () => {
 
   const handleDelete = async (blogId) => {
     try {
-      const response = await axios.delete(`http://localhost:5000/api/blog/delete/${blogId}`, {
+      const response = await axios.delete(`https://backfinal-1-llx1.onrender.com/api/blog/delete/${blogId}`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("auth-token")}`,
         },
@@ -69,7 +69,7 @@ const ViewBlogs = () => {
               <td>
                 {blog.coverImage ? (
                   <img
-                    src={`http://localhost:5000/uploads/blogs/${blog.coverImage}`}
+                    src={`https://backfinal-1-llx1.onrender.com/uploads/blogs/${blog.coverImage}`}
                     alt="Cover"
                     style={{ maxWidth: "50px" }}
                   />

@@ -13,7 +13,7 @@ export default function AdminHome({}) {
 
   //fetching all user
   const getAllUser = () => {
-    fetch(`http://localhost:5000/getAllUser?search=${searchQuery}`, {
+    fetch(`https://backfinal-1-llx1.onrender.com/getAllUser?search=${searchQuery}`, {
       method: "GET",
     })
       .then((res) => res.json())
@@ -32,7 +32,7 @@ export default function AdminHome({}) {
   //deleting user
   const deleteUser = (id, name) => {
     if (window.confirm(`Are you sure you want to delete ${name}`)) {
-      fetch("http://localhost:5000/deleteUser", {
+      fetch("https://backfinal-1-llx1.onrender.com/deleteUser", {
         method: "POST",
         crossDomain: true,
         headers: {
